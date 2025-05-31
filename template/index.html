@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-primary text-white text-center py-5 mt-5">
+      <div class="container px-4 px-lg-5">
+        <img
+          src="/api/placeholder/150/150"
+          class="rounded-circle mb-4"
+          alt="Profile Picture"
+        />
+        <h1 class="display-4">Your Name</h1>
+        <p class="lead">Web Developer | Designer | Creative Thinker</p>
+        <div class="d-flex justify-content-center gap-3">
+          <a href="#" class="btn btn-outline-light"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="#" class="btn btn-outline-light"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="#" class="btn btn-outline-light"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">About Me</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Who I Am</h3>
+            <p>
+              A passionate developer with expertise in creating beautiful and
+              functional websites. I specialize in front-end development and
+              user experience design.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <h3>My Skills</h3>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>HTML/CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>JavaScript</span>
+                <span>85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>React</span>
+                <span>80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">My Projects</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="/api/placeholder/400/300"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">
+                  A brief description of your first project and the technologies
+                  used.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="/api/placeholder/400/300"
+                class="card-img-top"
+                alt="Project 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">
+                  A brief description of your second project and the
+                  technologies used.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="/api/placeholder/400/300"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">
+                  A brief description of your third project and the technologies
+                  used.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">&copy; 2024 Your Name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
