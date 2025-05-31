@@ -1,0 +1,4 @@
+Django==5.1.2
+gunicorn==21.2.0
+psycopg2-binary==2.9.9  # Only if using PostgreSQL
+Pillow==10.3.0          # If you use ImageField
